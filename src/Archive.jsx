@@ -1,6 +1,6 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
-import { Link } from "react-router-dom"; // لازم باش نربط الزر بالAccueil
+import { Link } from "react-router-dom"; 
 
 export default function Archive({ archive, restoreNews, isAdmin, setSelectedNews }) {
   const NewsCard = ({ item }) => (
@@ -37,7 +37,7 @@ export default function Archive({ archive, restoreNews, isAdmin, setSelectedNews
   return (
     <div className="min-h-screen px-4 md:px-6 py-10 bg-gradient-to-b from-black via-gray-900 to-black text-white">
       
-      {/* زر العودة للصفحة الرئيسية */}
+      
       <div className="mb-6 text-center">
         <Link
           to="/"

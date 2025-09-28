@@ -36,6 +36,7 @@ const App = () => {
       date: "2025-09-20",
       fullText: "test ..........................................................................................................,",
     },
+    
   ]);
   const [selectedNews, setSelectedNews] = useState(null);
   const [isAdmin] = useState(true);

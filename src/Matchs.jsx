@@ -3,7 +3,7 @@ import React from 'react'
 function Matchs() {
   return (
     <div>
-      <h1>Matchs</h1>
+      <h1>404</h1>
     </div>
   )
 }

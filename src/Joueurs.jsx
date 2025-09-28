@@ -3,7 +3,7 @@ import React from 'react'
 function Joueurs() {
   return (
     <div>
-      <h1>Joueurs</h1>
+      <h1>404</h1>
     </div>
   )
 }

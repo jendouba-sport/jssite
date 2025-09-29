@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import toast, { Toaster } from "react-hot-toast";
 
 export default function MatchLive() {
-  const [selectedMatch] = useState({ id: 1, title: "Jendouba Sport vs Club X" });
+  const [selectedMatch] = useState({ id: 1, title: "Jendouba Sport " });
   const [showCart, setShowCart] = useState(true);
 
   
@@ -145,13 +145,8 @@ export default function MatchLive() {
       </header>
 
       <div className="w-full max-w-6xl aspect-video bg-black rounded-xl shadow-2xl overflow-hidden border-4 border-red-600 animate-fadeIn delay-200 relative">
-        <video src="/videos/match.mp4" controls autoPlay className="w-full h-full object-cover" />
-        <div className="absolute top-4 left-4 bg-black/50 text-white p-4 rounded-lg backdrop-blur-sm">
-          <h2 className="text-xl font-bold">{selectedMatch.title}</h2>
-          <p>Score: 0 - 0</p>
-          <p>Joueurs: Player1, Player2</p>
-          <p>Date: 28/09/2025</p>
-        </div>
+        <video src="public/ph/videoplayback.mp4" controls autoPlay className="w-full h-full object-cover" />
+      
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 mt-6">

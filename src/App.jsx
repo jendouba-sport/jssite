@@ -5,6 +5,7 @@ import Archive from "./Archive";
 import Matchlive from "./Matchlive";
 import Joueurs from "./Joueurs";
 import Matchs from "./Matchs";
+import JsStore from "./Js store";
 
 const App = () => {
   const [archive, setArchive] = useState([]);
@@ -81,6 +82,7 @@ const App = () => {
         <Route path="/matchlive" element={<Matchlive />} />
         <Route path="/joueurs" element={<Joueurs />} />
         <Route path="/matchs" element={<Matchs />} />
+        <Route path="/js-store" element={<JsStore />} />
       </Routes>
     </Router>
   );

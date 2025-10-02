@@ -2,9 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/', // ✅ important for username.github.io repos
+  base: '/jendouba-sport.github.io/', 
   plugins: [react(), tailwindcss()],
 })
-

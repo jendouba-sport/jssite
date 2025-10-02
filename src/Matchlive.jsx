@@ -20,6 +20,7 @@ export default function MatchLive() {
 
   const [currentStep, setCurrentStep] = useState(1); 
   const [isPaying, setIsPaying] = useState(false); 
+  
 
   const itemVariants = { hidden:{opacity:0, y:-20}, visible:{opacity:1, y:0}, exit:{opacity:0, y:30, transition:{duration:0.3}} };
 

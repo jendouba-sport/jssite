@@ -146,7 +146,7 @@ export default function MatchLive() {
       </header>
 
       <div className="w-full max-w-6xl aspect-video bg-black rounded-xl shadow-2xl overflow-hidden border-4 border-red-600 animate-fadeIn delay-200 relative">
-        <video src="public/ph/videoplayback.mp4" controls autoPlay className="w-full h-full object-cover" />
+        <video src="/ph/videoplayback.mp4" controls autoPlay className="w-full h-full object-cover" />
       
       </div>
 
